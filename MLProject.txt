@@ -1,0 +1,7 @@
+name: Eksperimen_Rekam_Medis
+
+conda_env: requirements.txt
+
+entry_points:
+  main:
+    command: "python modelling.py"
