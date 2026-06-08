@@ -28,7 +28,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run mlflow project
-      run: mlflow run . --env-manager=local
+      run: mlflow run . --env-manager=local --experiment-name="Eksperimen_Rekam_Medis"
 
     - name: Get latest MLflow run_id
       run: echo "Training model berhasil dieksekusi secara otomatis!"
